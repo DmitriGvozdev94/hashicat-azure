@@ -132,6 +132,7 @@ resource "azurerm_linux_virtual_machine" "catapp" {
 
   tags = {
     Department = "Something"
+    Billable = "Me"
   }
 
   # Added to allow destroy to work correctly.
